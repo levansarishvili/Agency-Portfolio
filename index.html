@@ -5,7 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agency - Portfolio</title>
 
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- ============= Header Section ============= -->
+    <div class="header__container">
+      <header class="header center">
+        <nav class="nav">
+          <img class="nav__logo" src="./assets/logo.svg" alt="Agency logo" />
+
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="#">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Blog</a>
+            </li>
+          </ul>
+
+          <button class="btn nav__btn">CONTACT</button>
+        </nav>
+
+        <div class="header__title">
+          <div class="first-container">
+            <h1>
+              We’re Help <br />
+              To Build Your <br />
+              Dream Project
+            </h1>
+            <h3>Modern Studio</h3>
+            <p>
+              Agency provides a full service range including technical skills,
+              <br />
+              design, business understanding.
+            </p>
+
+            <div class="header__btn--container">
+              <button class="btn header__btn">How We Work</button>
+              <p>Contact Us</p>
+            </div>
+
+            <div class="author__container">
+              <img src="./assets/author.png" alt="author image" />
+              <p>"Put themselves in the merchant's shoes"</p>
+              <p class="company-name">Meta Inc.</p>
+            </div>
+          </div>
+          <div class="second-container">
+            <img
+              class="header__img"
+              src="./assets/background.svg"
+              alt="background image"
+            />
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
