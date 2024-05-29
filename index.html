@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- ============= Header Section ============= -->
-    <div class="dark-background">
+    <div class="dark-back-wrapper">
       <header class="header center">
         <nav class="nav">
           <img class="nav__logo" src="./assets/logo.svg" alt="Agency logo" />
@@ -38,17 +38,17 @@
             </li>
           </ul>
 
-          <button class="btn nav__btn small-btn transparent-btn">
-            CONTACT
+          <button class="btn nav__btn btn-small btn-transparent">
+            Contact
           </button>
         </nav>
       </header>
 
       <!-- ============= Hero Section ============= -->
       <section class="hero center">
-        <div class="hero__title">
-          <h5 class="h5-header">Modern Studio</h5>
-          <h1 class="h1-header">
+        <div class="hero__title-wrapper">
+          <h5 class="hero__subtitle h5-header">Modern Studio</h5>
+          <h1 class="hero__title h1-header">
             We’re Help <br />
             To Build Your <br />
             Dream Project
@@ -59,27 +59,27 @@
             design, business understanding.
           </p>
 
-          <div class="hero__btn--container">
-            <button class="btn hero__btn medium-btn orange-btn">
+          <div class="hero__btn-wrapper">
+            <button class="btn hero__btn btn-medium btn-orange">
               How We Work
             </button>
-            <p class="hero__btn-text">Contact Us</p>
+            <p class="hero__btn-desc">Contact Us</p>
           </div>
 
-          <div class="hero__author--container">
+          <div class="hero__author-wrapper">
             <img
-              class="hero__author-img"
+              class="hero__author__img"
               src="./assets/author.png"
               alt="author image"
             />
-            <p class="hero__author-desc">
+            <p class="hero__author__desc">
               "Put themselves in the merchant's shoes"
             </p>
-            <p class="hero__author-company">Meta Inc.</p>
+            <p class="hero__author__company">Meta Inc.</p>
           </div>
         </div>
 
-        <div class="hero__img-container">
+        <div class="hero__img-wrapper">
           <img
             class="hero__img"
             src="./assets/background.png"
@@ -90,18 +90,38 @@
     </div>
 
     <!-- ============= Partners ============= -->
-    <div class="light-background">
+    <div class="light-back-wrapper">
       <div class="partners center">
-        <img src="./assets/partner-logo1.svg" alt="partner-logo" />
-        <img src="./assets/partner-logo2.svg" alt="partner-logo" />
-        <img src="./assets/partner-logo3.svg" alt="partner-logo" />
-        <img src="./assets/partner-logo4.svg" alt="partner-logo" />
-        <img src="./assets/partner-logo5.svg" alt="partner-logo" />
+        <img
+          class="partners__logo"
+          src="./assets/partner-logo1.svg"
+          alt="partner-logo"
+        />
+        <img
+          class="partners__logo"
+          src="./assets/partner-logo2.svg"
+          alt="partner-logo"
+        />
+        <img
+          class="partners__logo"
+          src="./assets/partner-logo3.svg"
+          alt="partner-logo"
+        />
+        <img
+          class="partners__logo"
+          src="./assets/partner-logo4.svg"
+          alt="partner-logo"
+        />
+        <img
+          class="partners__logo"
+          src="./assets/partner-logo5.svg"
+          alt="partner-logo"
+        />
       </div>
 
       <!-- ============= About Section ============= -->
       <section class="about center">
-        <div class="about__img-container">
+        <div class="about__img-wrapper">
           <img
             class="about__img"
             src="./assets/about-img.png"
@@ -109,19 +129,21 @@
           />
         </div>
 
-        <div class="about__title">
-          <h5 class="h5-header">about</h5>
-          <h2 class="h2-header">An Experience <br />Design Agency</h2>
+        <div class="about__title-wrapper">
+          <h5 class="about__subtitle h5-header">about</h5>
+          <h2 class="about__title h2-header">
+            An Experience <br />Design Agency
+          </h2>
           <p class="about__desc-name">Provides a full service range</p>
           <p class="about__desc">
             Ability to put themselves in the merchant's shoes. It is meant to
             partner on the long run, and work as an extension of the merchant's
             team.
           </p>
-          <button class="btn about__btn small-btn white-btn">About Us</button>
+          <button class="btn about__btn btn-small btn-white">About Us</button>
         </div>
 
-        <div class="about__stats-container">
+        <div class="about__stats-wrapper">
           <ul class="about__stats">
             <li class="about__stat">
               <p class="about__stat__num">42%</p>
@@ -138,6 +160,42 @@
           </ul>
         </div>
       </section>
+
+      <!-- ============= How we work Section ============= -->
+      <section class="work center">
+        <div class="work__title-wrapper">
+          <h5 class="work__subtitle h5-header">How we work</h5>
+          <h3 class="work__title h3-header">
+            Making Your Projects <br />Look Awesome
+          </h3>
+          <p class="work__desc">
+            Technical skills, design, business understanding, ability to put
+            themselves in the merchant's shoes.
+          </p>
+          <p class="work__more">Read More</p>
+        </div>
+
+        <div class="work__principles-wrapper">
+          <ul class="work__principles">
+            <li class="work__principle">
+              <p class="work__principle__num">1</p>
+              <p class="work__principle__txt">Full service range including</p>
+            </li>
+            <li class="work__principle">
+              <p class="work__principle__num">2</p>
+              <p class="work__principle__txt">
+                Technical skills, design, business
+              </p>
+            </li>
+            <li class="work__principle">
+              <p class="work__principle__num">3</p>
+              <p class="work__principle__txt">Themselves in the merchant's</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- =============  Section ============= -->
     </div>
   </body>
 </html>
